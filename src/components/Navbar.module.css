@@ -56,7 +56,7 @@
 }
 .navbarNav button {
   color: white;
-  background-color: #333;
+  background-color: #041264;
   border: none;
   cursor: pointer;
   font-size: 1.1rem;
@@ -82,10 +82,10 @@
     position: absolute;
     top: 60px;
     left: 0;
-    background-color: #333;
+    background-color: #1632af;
     width: 100%;
     z-index: 1;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(5, 1, 70, 0.1);
   }
 
   .navbarNav.active {
