@@ -6,9 +6,11 @@
   align-items: center;
   color: white;
   text-align: left;
-  padding: 0 20px;
+  padding: 0 1.5rem;
 }
-
+.outer {
+  background: linear-gradient(to right, #000046, #1cb5e0);
+}
 .textContainer {
   flex: 1;
 }
@@ -59,8 +61,10 @@
 
 .activitiesContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-  margin: 2rem 1rem 2rem 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(calc(33.333% - 40px), 1fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {

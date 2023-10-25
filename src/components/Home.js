@@ -19,7 +19,7 @@ const activities = [
     title: "Wedding Anniversaries",
     description: "Make the day memorable for both of you.💝",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT50qhaFsAfw4Dxuqg1b-9SXEGOhlQIkNp5kQ&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIWNkfr2p4IPwhEe0oOdyK6PtDxWRWFKF37Q&usqp=CAU",
   },
   {
     title: "Corporate Events",
@@ -62,7 +62,7 @@ const activities = [
 
 const Home = () => {
   return (
-    <>
+    <div className={styles.outer}>
       <div className={styles.container}>
         <div>
           <h1 className={styles.title}>Let's Go Jolly!!! 🚢</h1>
@@ -82,7 +82,7 @@ const Home = () => {
           <Activity key={index} activity={activity} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
