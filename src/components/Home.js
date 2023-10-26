@@ -72,7 +72,7 @@ const Home = () => {
         </div>
         <img
           className={styles.image}
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8tLw5eiXJiwRypwVnydR0zbhOkp4kKODpjg&usqp=CAU"
+          src="https://images.unsplash.com/photo-1580541631950-7282082b53ce?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3J1aXNlfGVufDB8fDB8fHww"
           alt="Cruise Ship"
         />
         <div></div>
